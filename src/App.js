@@ -3,6 +3,7 @@ import Time from './components/Time';
 import Mesa from './components/Mesa';
 import GarzonList from './components/GarzonList'
 import Button from './components/Button';
+
 import images from './asset/images'
 import './App.css';
 
@@ -16,6 +17,8 @@ function App() {
       <Mesa></Mesa>  
       <GarzonList> </GarzonList>
       <Button></Button>
+
+     
       
       
     </div>

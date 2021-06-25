@@ -1,7 +1,5 @@
- import logo from './img/logo.png';
- // eslint-disable-next-line 
- export default {
-    'img1': logo
-    
-   
-    }
+import logo from "./img/logo.png";
+// eslint-disable-next-line
+export default {
+  img1: logo,
+};
