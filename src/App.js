@@ -1,23 +1,23 @@
-import logo from './logo.svg';
+import React from "react";
+import Time from './components/Time';
+import Mesa from './components/Mesa';
+import GarzonList from './components/GarzonList'
+import Button from './components/Button';
+import images from './asset/images'
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <img src={images.img1} alt= 'logo'/>
+      
+
+      <Time></Time> 
+      <Mesa></Mesa>  
+      <GarzonList> </GarzonList>
+      <Button></Button>
+      
+      
     </div>
   );
 }
