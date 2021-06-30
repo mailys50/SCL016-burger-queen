@@ -1,7 +1,7 @@
 import React from "react";
-// import {BroweserRouter as Router,
-// Swithc,
-// Route, Links} from 'react-router-dom'
+import {BrowserRouter as Router,
+Switch,
+ Route, Links} from 'react-router-dom'
 import Time from './components/Time';
 import Mesa from './components/Mesa';
 import GarzonList from './components/GarzonList'
@@ -15,6 +15,27 @@ import './App.css';
 
 function App() {
   return (
+    <Router>
+      <Switch>
+        <Route path="/inicio">
+estas en inicio
+
+        </Route>
+        <Route path="/">
+estas es la url base
+
+        </Route>
+        <Route path="/inicio">
+estas en inicio
+
+        </Route>
+        <Route path="/">
+estas es la url base
+
+        </Route>
+
+
+      </Switch>
     <div className="App">
       <img src={images.img1} alt= 'logo'/>
       
@@ -29,6 +50,7 @@ function App() {
        
       
     </div>
+    </Router>
   );
 }
 

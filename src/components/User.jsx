@@ -1,9 +1,9 @@
 import React, {useState} from "react";
-import './App.css';
+import '../App.css';
 
 
 
-function AppUser() {
+function User() {
     const [name, setName]= useState('')
     const [dni, setDni]= useState('')
     const [error, setError]= useState('')
@@ -52,11 +52,11 @@ function AppUser() {
 
     </div>  
     <div className="col">
-        <h2>Lista de Clienes</h2>   
+        <h2>Pedido Listo</h2>   
     </div>
     </div>      
     </div>
   );
 }
 
-export default AppUser
+export default User;
