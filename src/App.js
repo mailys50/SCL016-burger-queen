@@ -1,42 +1,49 @@
 import React from "react";
-import {BrowserRouter as Router,
-Switch,
- Route, Links} from 'react-router-dom'
-import Time from './components/Time';
-import Mesa from './components/Mesa';
-import GarzonList from './components/GarzonList'
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import Cards from "./components/Cards";
-import User from './components/User'
-import images from './asset/images'
-import App1 from "./App1";
-import App2 from "./App2";
-import './App.css';
-//crea un valor que se va a guardar oara ser utilizado
+import AppUser from "./AppUser";
+import images from "./asset/images";
+import Pedido from "./components/Pedido";
+import AppBurger from "./AppBurger";
+import "./App.css";
+//crea un valor que se va a guardar Para ser utilizado
 // const myContext = React.createContext();
 
 function App() {
   return (
-    // <myContext.Provider value={null} >
-    <Router>
-      <Switch>
-        <Route exact path="/">
-          <div>
-          <img src={images.img1} alt= 'logo'/>
-          </div>
-          <User />
-          <Time/> 
-          <Mesa/>  
-         <GarzonList/>
-         <Cards/>
+    <div className="App">
+       <div>
+              <img src={images.img1} alt="logo" />
+            </div>
+      <Router>
+        <Link to="/">AppUser</Link>
+        <Link to="/inicio">Inicio</Link>
+        <Link to="/burger">Burger</Link>
+        <Link to="/shawarma">Shawarma</Link>
+        <Link to="/drink">Drink</Link>
 
-        </Route>
-        <Route  path="/inicio">
+        <Switch>
+          <Route exact path="/">
+          <AppUser />
           
-          <App1/>
-           <App2/>
-        </Route>
-      </Switch>   
-    </Router>
+          </Route>
+          <Route path="/inicio">
+            <Cards />
+          </Route>
+          <Route path="/burger">
+            <Pedido />
+            <AppBurger />
+          </Route>
+          <Route path="/shawarma">
+          <Pedido />
+            <AppBurger />
+          </Route>
+          <Route path="/drink">
+          <Pedido />
+          </Route>
+        </Switch>
+      </Router>
+    </div>
   );
 }
 

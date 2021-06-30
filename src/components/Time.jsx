@@ -1,9 +1,9 @@
-import React, { Fragment } from "react";
-import ReactDOM from 'react-dom'
+ import React, { Fragment } from "react";
+// // import ReactDOM from 'react-dom'
 
 
 const Time = () => {
-  const actualizaHora = () => {
+  const updateTime = () => {
     const today = new Date();
     let day= today.getDate();
     let month= today.getMonth();
@@ -13,16 +13,17 @@ const Time = () => {
     let seconds= today.getSeconds();
     const date = day + "/" + (month + 1) + "/" + year;
     
-    if (minutes<10) {
+    
+    if (minutes < 10) {
       minutes = "0"+ minutes;
     }
-    if (minutes<10) {
+    if (seconds < 10) {
       seconds = "0"+ seconds;
     }
     document.getElementById('hora').innerHTML = date + "     " + hours + ":" + minutes + ":" + seconds;
   }
   
-  setInterval(actualizaHora, 1000);
+  setInterval(updateTime, 1000);
   
   
  

@@ -7,7 +7,7 @@ function User() {
     const [name, setName]= useState('')
     const [dni, setDni]= useState('')
     const [error, setError]= useState('')
-    const [user, setUsers] = useState([])
+    
     const setUser = (e) =>{
         e.preventDefault()
         if(!name.trim()) {
@@ -44,10 +44,7 @@ function User() {
                     <p>{error}</p>
                     </div>
             ):
-            (<span></span>)
-                
-
-            
+            (<span></span>)   
         }
 
     </div>  

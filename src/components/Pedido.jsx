@@ -1,10 +1,10 @@
 import React, {Fragment, useState} from "react";
-import Orden from "./components/Orden"
-import Burger from "./components/Burger"
-import './App.css';
+import Orden from "./Orden"
+import Burger from "./Burger"
+// import '../App.css';
 
 
-const App1 = () => {
+const Pedido = () => {
   //estado de burguer
   const[burgers] = useState([
 {id: 1, nombre:' carne', precio:2000},
@@ -42,4 +42,4 @@ const App1 = () => {
   );
 }
 
-export default App1;
+export default Pedido;
