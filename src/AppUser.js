@@ -1,6 +1,6 @@
 import React from "react";
 import User from "./components/User";
-import Time from "./components/Time";
+import Clock from "./components/Clock"
 import Mesa from "./components/Mesa";
 import GarzonList from "./components/GarzonList";
 // import '../App.css';
@@ -11,8 +11,9 @@ const AppUser = ()  =>{
     
   return (
     <div className="containerUser">
+       <Clock />
      <User />
-     <Time />
+    
      <Mesa />
      <GarzonList />
     </div>

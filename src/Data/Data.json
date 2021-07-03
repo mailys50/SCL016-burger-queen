@@ -1,0 +1,83 @@
+ [
+      {
+        "id": "1",
+        "option": "burger",
+        "name": "CARNE",  
+        "price": "2500",
+        "images": "https://github.com/mailys50/SCL016-burger-queen/blob/develop4/src/asset/img/burger.png?raw=true",
+        "text": "Lechuga, Tomate,papita, salsa",
+        "url": "burger-carne"
+      },
+      {
+        "id": "2",
+        "option": "burger",
+        "name": "DOBLE CARNE",
+        "price": "3500",
+        "images":"https://github.com/mailys50/SCL016-burger-queen/blob/develop4/src/asset/img/burger.png?raw=true",
+        "text": "Lech, tomt,papita, queso",
+        "url": "burger-doble-carne"
+      },
+      {
+        "id": "3",
+        "option": "burger",
+        "name": "CARNE Y TOCINO",
+        "price": "3000",
+        "images": "https://github.com/mailys50/SCL016-burger-queen/blob/develop4/src/asset/img/burger.png?raw=true",
+        "text": "Lech, Tomat,papita, queso",
+        "url": "burger-carne-tocino"
+        
+      },
+      {
+        "id": "4",
+        "option": "burger",
+        "name": "CARNE Y POLLO",
+        "price": "3500",
+        "images": "https://github.com/mailys50/SCL016-burger-queen/blob/develop4/src/asset/img/burgerMaxi.png?raw=true",
+        "text": "papita, queso,jamón",
+        "url": "burger-carne-pollo"
+        
+      },
+      {
+        "id": "5",
+        "option": "burger",
+        "name": "POLLO",
+        "price": "2500",
+        "images": "https://github.com/mailys50/SCL016-burger-queen/blob/develop4/src/asset/img/burgerPollo.png?raw=true",
+        "text": "Lechuga, Tomate,papita, salsa",
+        "url": "burger-carne-pollo"
+        
+      },
+     
+      {
+        "id": "6",
+        "option": "burger",
+        "name": "DOBLE POLLO",
+        "price": "3500",
+        "images":"https://github.com/mailys50/SCL016-burger-queen/blob/develop4/src/asset/img/burgerPollo.png?raw=true",
+        "text": "papita, salsa, queso",
+        "url": "burger-doble-pollo"
+        
+      },
+      {
+        "id": "7",
+        "name": "POLLO Y TOCINO",
+        "price": "3500",
+        "images": "https://github.com/mailys50/SCL016-burger-queen/blob/develop4/src/asset/img/burgerPollo.png?raw=true",
+        "text": "papita, salsa, queso",
+        "url": "burger-pollo-tocino"
+        
+      },
+      {
+        "id": "8",
+        "option": "burger",
+        "name": "MAXI",
+        "price": "4000",
+        "images":"https://github.com/mailys50/SCL016-burger-queen/blob/develop4/src/asset/img/burgerMaxi.png?raw=true",
+        "text": " jamon,queso, huevos",
+        "url": "burger-pollo-tocino"
+        
+      }
+    
+     
+    ]
+  

@@ -1,6 +1,7 @@
 import React from "react";
 import Card from "./Card";
-import images from "../asset/images";
+import images from "../../asset/images";
+
 
 
 

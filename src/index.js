@@ -1,13 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+// import Datos from './components/ListBurger'
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.css'
+import '../node_modules/bootstrap/dist/js/bootstrap.min.js'
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <App /> 
+    {/* <Datos />
+     */}
   </React.StrictMode>,
   document.getElementById('root')
 );

@@ -1,0 +1,34 @@
+[
+
+    {
+      "id": "9",
+      "option": "shawarmar",
+      "name": "CARNE",  
+      "price": "2500",
+      "images":"https://github.com/mailys50/SCL016-burger-queen/blob/develop4/src/asset/img/shawarma.png?raw=true",
+      "url": "shawarma-carne"
+    },
+    
+    {
+      "id": "13",
+      "option": "shawarmar",
+      "name": "POLLO",
+      "price": "2500",
+      "images": "https://github.com/mailys50/SCL016-burger-queen/blob/develop4/src/asset/img/shawarma.png?raw=true",
+      "url": "shawarma-pollo"
+      
+    },
+   
+    {
+      "id": "16",
+      "option": "shawarmar",
+      "name": "MAXI",
+      "price": "4000",
+      "images": "https://github.com/mailys50/SCL016-burger-queen/blob/develop4/src/asset/img/shawarma.png?raw=true",
+      "url": "shawarma-maxi"
+      
+      
+    }
+  
+   
+  ]
