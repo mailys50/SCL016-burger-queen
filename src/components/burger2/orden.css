@@ -114,45 +114,47 @@
   align-items: center;
   justify-content: space-around;
 }
-.container .container__content .container__content__burgers {
+.container .container__content  .container__content__option {
   display: flex;
   flex-flow: column wrap;
   align-content: center;
   align-items: center;
   justify-content: space-between;
-  margin: 0;
-  padding: 10px;
+  margin: 8px;
+  padding:  16 13px 22 0px;;
   width: 200px;
   min-height: 200px;
   list-style: none;
-  background-color: #333;
+  background-color: #9A9C9C;
+  /* color: antiquewhite; */
   border-radius: 20px;
   box-shadow: 0 0 10px 2px #000;
   transition: 0.4s;
 }
-.container .container__content .container__content__burgers:hover .container__content__shawarmas:hover {
+.container .container__content .container__content__option:hover  {
   transform: translateY(20px);
 }
-.container .container__content .container__content__burgers .container__content__burgers--image .container__content__shawarmas .container__content__shawarmas--image {
+.container .container__content .container__content__option .container__content__option--image  {
   margin-top: -50px;
   max-width: 250px;
   max-height: 150px;
 }
-.container .container__content .container__content__burgers .container__content__burgers--name .container .container__content .container__content__burgers .container__content__burgers--price
-.container .container__content .container__content__shawarmars .container__content__shawarmas--name  .container__content__shawarmas .container__content__shawarmas--price  {
+.container .container__content .container__content__option .container__content__option--name .container .container__content .container__content__option .container__content__option--price
+{
   color: white;
 }
-.container .container__content .container__content__burgers .container__content__burgers--nombre {
+.container .container__content .container__content__option .container__content__option--nombre
+{
   font-family: "Alfa Slab One", cursive;
   font-size: 1.4rem;
 }
-.container .container__content .container__content__burgers .container__content__burgers--precio {
+.container .container__content .container__content__option .container__content__option--precio {
   font-family: "Montserrat", sans-serif;
   font-size: 1.4rem;
 }
 
 
-.container__content__burgers--btnAdd, .container__content__shawarmas--btnAdd {
+.container__content__option--btnAdd {
   cursor: pointer;
   color: white;
   border: 0;
@@ -165,7 +167,7 @@
   padding: 0 10px 0 10px;
 }
 
-.container__content__burgers--btnDel, .container__content__shawarmas--btnDel {
+.container__content__option--btnDel {
   cursor: pointer;
   color: white;
   border: 0;
@@ -179,7 +181,7 @@
   margin-right: 10px;
 }
 
-.container__content__burgers--btnClose, .container__content__shawarmas--btnClose {
+.container__content__option--btnClose{
   position: absolute;
   top: 0;
   right: 0;

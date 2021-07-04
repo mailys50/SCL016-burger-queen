@@ -34,7 +34,7 @@ const viewOrden = () => {
       </div>
       <div className="container__header__ordenDiv--list">
         <button
-          className="container__content__shawarmas--btnClose"
+          className="container__content__option--btnClose"
           type="button"
           onClick={() => closeDiv()}
         >

@@ -1,15 +1,16 @@
 import React from "react";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
-import Cards from "./components/opction/Cards";
 import AppUser from "./AppUser";
 import images from "./asset/images";
 import Pedido from "./components/burger2/Pedido";
 import PedidoSh from "./components/Shawarma/pedidoSh";
-import AppBurger from "./components/burger/AppBurger";
+import PedidoDrink from "./components/Drinks/PedidoDrink";
+
 // import FormCrud from "./components/FormCrud"
-// import Table from "./components/Table";
-import UseDatos from"./components/burger/UseDatos";
+import Table from "./components/Table";
+
 import "./App.css";
+
 
 //crea un valor que se va a guardar Para ser utilizado
 // const myContext = React.createContext();
@@ -17,51 +18,48 @@ import "./App.css";
 function App() {
   return (
     <div className="App">
-       <div>
-              <img src={images.img1} alt="logo" />
-              
-            </div>
-            <AppUser />
-            
-      <Router>
-        <Link to="/">AppUser</Link>
-        <Link to="/inicio">Inicio</Link>
-        <Link to="/burger">Burger</Link>
-        <Link to="/burger1">Burger1</Link>
-        <Link to="/shawarma">Shawarma</Link>
-        <Link to="/drink">Drink</Link>
+      <div>
+        <img src={images.img1} alt="logo" />
+      </div>
 
-        <Link to="/table">Table</Link>
+      <Router>
+        <Link className="btn btn-dark mr-3" to="/">
+          INICIO
+        </Link>
+        &nbsp;&nbsp;&nbsp;
+        <Link className="btn btn-dark mr-3" to="/burger">
+          HAMBURGUESA
+        </Link>
+        &nbsp;&nbsp;&nbsp;
+        <Link className="btn btn-dark mr-3" to="/shawarma">
+          SHAWARMA
+        </Link>
+        &nbsp;&nbsp;
+        <Link className="btn btn-dark mr-3" to="/drink">
+          BEBIDA
+        </Link>
+        &nbsp;&nbsp;&nbsp;
+        <Link className="btn btn-dark mr-3" to="/table">
+          ORDEN
+        </Link>
+        &nbsp;&nbsp;&nbsp;
         <Switch>
           <Route exact path="/">
-      
-          <Cards />
-          
-          </Route>
-          <Route path="/inicio">
-
-            
+            <AppUser />
           </Route>
           <Route path="/table">
-          
-          < UseDatos/>
+            <Table />
           </Route>
           <Route path="/burger">
             <Pedido />
-            
           </Route>
-          <Route path="/burger1">
-           
-            <AppBurger />
-          </Route>
+
           <Route path="/shawarma">
-           
-          <PedidoSh />
-        {/* <FormCrud /> */}
+            <PedidoSh />
+            {/* <FormCrud /> */}
           </Route>
           <Route path="/drink">
-        
-          <AppUser />
+            <PedidoDrink />
           </Route>
         </Switch>
       </Router>

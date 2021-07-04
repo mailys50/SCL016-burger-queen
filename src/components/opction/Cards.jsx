@@ -27,14 +27,18 @@ const cards = [
   },
 ];
 
+
 const Cards = () => {
   return (
-    <div className="container d-flex justify-content-center align-items-center h-100 " style={{width:'40rem', height:'40'}}>
+    <div className="container d-flex justify-content-center align-items-center h-100 " style={{width:'30rem', height:'30rem'}}>
       <div className="row">
         {cards.map(({ title, image, id }) => (
+
           <div className="col-md-4" key={id}>
             <Card imageSource={image} title={title}  />
+
           </div>
+         
         ))}
       </div>
     </div>

@@ -21,7 +21,7 @@ function User() {
     <div className="containerUser">
         <div className="row">    
         <div className="col">      
-        <form onSumit ={setUser} className="form-group">
+        <form onSubmit ={setUser} className="form-group">
             <input
              onChange={(e) =>{setName(e.target.value)}}
              className="form-control mt-3"

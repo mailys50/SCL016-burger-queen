@@ -20,17 +20,17 @@ const Shawarma = ({ shawarma, orden, setOrden, shawarmas }) => {
   return (
     <Fragment className="App">
 
-    <ul className="container__content__shawarmas">
-      <img className="container__content__shawarmas--image" src={images} width="50px" height="50px" alt= 'imagen'/>
+    <ul className="container__content__option">
+      <img className="container__content__option--image" src={images} width="50px" height="50px" alt= 'imagen'/>
      
-      <li className="container__content__shawarmas--nombre">{name}</li>
-      <li className="container__content__shawarmas--nombre">{text} color:orange</li>
-      <li className="container__content__shawarmas--precio">${price}</li>
+      <li className="container__content__option--nombre">{name}</li>
+      <li className="container__content__option--nombre">{text} color:orange</li>
+      <li className="container__content__option--precio">${price}</li>
     
      
       {shawarmas ? (
         <button
-          className="container__content__shawarmas--btnAdd"
+          className="container__content__option--btnAdd"
           type="button"
           onClick={() => addShawarma(id)}
         >
@@ -46,7 +46,7 @@ const Shawarma = ({ shawarma, orden, setOrden, shawarmas }) => {
             Eliminar
           </button>
           <button
-            className="container__contesnt__shawarmas--btnAdd"
+            className="container__contesnt__option--btnAdd"
             type="button"
             onClick={() => delShawarma(id)}
           >
