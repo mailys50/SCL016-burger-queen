@@ -43,7 +43,7 @@
         "option": "drink",
         "name": "COCA COLA",
         "price": "1000",
-        "images":"https://github.com/mailys50/SCL016-drink-queen/blob/develop4/src/asset/img/drinkPollo.png?raw=true",
+        "images":"https://github.com/mailys50/SCL016-burger-queen/blob/develop4/src/asset/img/cocaCola.png?raw=true",
         "text": "500 ml",
         "url": "drink-coca-cola"
     },
@@ -53,7 +53,7 @@
         "option": "drink",
         "name": "FANTA",
         "price": "1000",
-        "images":"https://github.com/mailys50/SCL016-drink-queen/blob/develop4/src/asset/img/drinkPollo.png?raw=true",
+        "images":"https://github.com/mailys50/SCL016-burger-queen/blob/develop4/src/asset/img/fanta.png?raw=true",
         "text": "500 ml",
         "url": "drink-fanta"
       
@@ -63,7 +63,7 @@
         "option": "drink",
         "name": "SPRINTE",
         "price": "1000",
-        "images":"https://github.com/mailys50/SCL016-drink-queen/blob/develop4/src/asset/img/drinkPollo.png?raw=true",
+        "images":"https://github.com/mailys50/SCL016-burger-queen/blob/develop4/src/asset/img/sprite.png?raw=true",
         "text": "500 ml",
         "url": "drink-sprinte"
     },
@@ -73,7 +73,7 @@
         "option": "drink",
         "name": "COCA COLA",
         "price": "1500",
-        "images":"https://github.com/mailys50/SCL016-drink-queen/blob/develop4/src/asset/img/drinkPollo.png?raw=true",
+        "images":"https://github.com/mailys50/SCL016-burger-queen/blob/develop4/src/asset/img/cocaCola2.png?raw=true",
         "text": "2 lts",
         "url": "drink-coca-cola-dos-litros"
       
