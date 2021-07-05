@@ -61,7 +61,7 @@
     {
         "id": "18",
         "option": "drink",
-        "name": "SPRINTE",
+        "name": "SPRITE",
         "price": "1000",
         "images":"https://github.com/mailys50/SCL016-burger-queen/blob/develop4/src/asset/img/sprite.png?raw=true",
         "text": "500 ml",

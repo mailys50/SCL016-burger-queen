@@ -3,14 +3,12 @@ import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import AppUser from "./AppUser";
 import images from "./asset/images";
 import Pedido from "./components/burger2/Pedido";
-import PedidoSh from "./components/Shawarma/pedidoSh";
-import PedidoDrink from "./components/Drinks/PedidoDrink";
+
 
 // import FormCrud from "./components/FormCrud"
 import Table from "./components/Table";
 
 import "./App.css";
-
 
 //crea un valor que se va a guardar Para ser utilizado
 // const myContext = React.createContext();
@@ -47,19 +45,20 @@ function App() {
           <Route exact path="/">
             <AppUser />
           </Route>
-          <Route path="/table">
-            <Table />
-          </Route>
+
           <Route path="/burger">
-            <Pedido />
+            <Pedido option="burger" />
           </Route>
 
           <Route path="/shawarma">
-            <PedidoSh />
-            {/* <FormCrud /> */}
+            <Pedido option="shawarma" />
           </Route>
           <Route path="/drink">
-            <PedidoDrink />
+            <Pedido option="drink" />
+          </Route>
+          <Route path="/table">
+            <AppUser />
+            <Table />
           </Route>
         </Switch>
       </Router>

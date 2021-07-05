@@ -35,12 +35,7 @@ los que trabajes.
 
 ## 2. Resumen del proyecto
 
-Esta vez tenemos un proyecto 100% por encargo. Si bien siempre puedes (y debes)
-hacer sugerencias de mejoras y/o cambios, muchas veces trabajarás en proyectos
-en los que primero hay que asegurarse de cumplir con lo requerido.
-
-Un pequeño restaurante de hamburguesas, que está creciendo, necesita una
-interfaz en la que puedan tomar pedidos usando una _tablet_, y enviarlos
+Crear una interfaz para un pequeño restaurante de hamburguesas,en la que puedan tomar pedidos usando una _tablet_, y enviarlos
 a la cocina para que se preparen ordenada y eficientemente (a través de un
   _backend_ del que nos darán detalles más adelante).
 
@@ -479,3 +474,26 @@ yarn start
 * [Qué es Serverless? | FooBar - YouTube](https://www.youtube.com/watch?v=_SYHUpLi-2U)
 * [Firebase](https://firebase.google.com/)
 * [Serverless Architectures - Martin Fowler](https://www.martinfowler.com/articles/serverless.html)
+
+
+## Nombre del Proyecto:
+### Rich Burger 
+
+## Instalación de Dependencias
+
+### React
+* npx install -g create-react-app aqui nombre de la carpeta del proyecto
+* cd aqui nombre de la carpeta del proyecto
+* npm install react-hook-form                              
+
+
+### Bootstrap
+* npm i bootstrap  
+
+### Firebase
+ * npm install -g firebase-tools
+### Jest
+ * npm install jest --save-dev  
+
+ 
+ npm install axios 

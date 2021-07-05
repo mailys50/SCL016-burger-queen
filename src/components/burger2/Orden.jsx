@@ -1,12 +1,12 @@
 import React, { Fragment } from "react";
-import Burger from "./Burger";
+import Plate from "./Plate";
 import "./orden.css"
 const Orden = ({orden,setOrden}) => {
 // return (
 //     <div className= "orden">
 //     <h3>Orden</h3>
-//     {orden.length ?(<p>0</p>): (orden.map((burger => <Burger key={burger.id}burger={burger.name}orden={orden} setOrden={setOrden}/> )))}
-//     {orden.length === 1 ?(<p>1</p>): (orden.map((burger => <Burger key={burger.name}burger={burger} orden={orden} setOrden={setOrden}/> )))}
+//     {orden.length ?(<p>0</p>): (orden.map((plate => <Burger key={plate.id}plate={plate.name}orden={orden} setOrden={setOrden}/> )))}
+//     {orden.length === 1 ?(<p>1</p>): (orden.map((plate => <Burger key={plate.name}plate={plate} orden={orden} setOrden={setOrden}/> )))}
 //     </div>
 // )
 const viewOrden = () => {
@@ -40,13 +40,13 @@ const viewOrden = () => {
         >
           X
         </button>
-        {orden.length === 0 ? (
+        {orden.length === 0  ? (
           <p>0</p>
         ) : (
-          orden.map((burger) => (
-            <Burger
-              key={burger.id}
-              burger={burger}
+          orden.map((plate) => (
+            <Plate
+              key={plate.id}
+              plate={plate}
               orden={orden}
               setOrden={setOrden}
             />

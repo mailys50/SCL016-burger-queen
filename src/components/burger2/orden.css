@@ -24,9 +24,9 @@
   cursor: default;
 }
 
-.container__header__menu {
+/* .container__header__menu {
   padding-left: 5px;
-}
+} */
 
 .container__header__OrdenDiv {
   display: flex;
@@ -37,6 +37,16 @@
   min-width: 50px;
   padding-right: 5px;
 }
+.div.container__header__optionDiv--list{
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  border-radius: 100%;
+  cursor: default;
+  margin-top: 0;
+  margin-left: 0;
+
+}
 
 .container__header__OrdenDiv--count {
   width: 20px;
@@ -44,6 +54,8 @@
   text-align: center;
   border-radius: 100%;
   cursor: default;
+  margin-top: 0;
+  margin-left: 0;
   background-color: red;
 }
 
@@ -82,7 +94,7 @@
   align-items: center;
   justify-content: space-between;
   height: 40vh; 
-  /* height100vh */
+  /* height 40vh */
 }
 .container .container__content {
   display: flex;
@@ -101,7 +113,6 @@
 .container .container__content .container__content__listOption {
   display: flex;
   flex-flow: row wrap;
-  /* flex-flow: row; */
   min-width: 100vw;
   align-content: center;
   align-items: center;
@@ -114,7 +125,7 @@
   align-items: center;
   justify-content: space-between;
   margin: 8px;
-  padding:  16 13px 22 0px;;
+  padding: 23px;
   width: 200px;
   min-height: 200px;
   list-style: none;
@@ -153,7 +164,7 @@
   border: 0;
   background-color: #dd5127;
   text-shadow: 1px 0px #111;
-  font-family: "Alfa Slab One", cursive;
+  font-family: "Alfa Slab One";
   font-size: 1.4rem;
   box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.5);
   border-radius: 2px;
@@ -168,7 +179,7 @@
   text-shadow: 1px 0px #111;
   font-family: "Alfa Slab One", cursive;
   font-size: 1.4rem;
-  box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.6);
   border-radius: 2px;
   padding: 0 10px 0 10px;
   margin-right: 10px;
@@ -188,24 +199,24 @@
 
 .container__header__OrdenDiv--btnOrden {
   cursor: pointer;
-  background-color: transparent;
-  background-image: url("../images/cart.png");
+  /* background-color: transparent; */
+  background-image: url("https://github.com/mailys50/SCL016-burger-queen/blob/develop4/src/asset/img/carrito.png?raw=true");
   background-size: 20px;
   background-repeat: no-repeat;
   background-position: center;
   border: 0;
-  width: 20px;
-  height: 20px;
+  width: 80px;
+  height: 80px;
 }
 
-.container__header__menu--button {
+/* .container__header__menu--button {
   cursor: pointer;
   background-color: transparent;
-  background-image: url("../images/menu.png");
+  background-image: url("https://raw.githubusercontent.com/juanmanuelcrego/react-states-hooks/master/src/images/menu.png");
   background-size: 20px;
   background-repeat: no-repeat;
   background-position: center;
   border: 0;
   width: 20px;
   height: 20px;
-} 
+}  */

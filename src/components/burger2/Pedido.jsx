@@ -1,23 +1,22 @@
 import React, { Fragment, useState } from "react";
 import Orden from "./Orden";
-import Burger from "./Burger";
+import Plate from "./Plate";
 import Data from "../../Data/Data.json";
 // import '../App.css';
 
-const Pedido = () => {
+const Pedido = (option) => {
   //estado de burguer
 
-  const [[burgers]] = useState([Data]);
-
+  const dataFilter = Data.filter((plate) => plate.option === option.option);
   //estado del pedido inicia vacio
   const [orden, setOrden] = useState([]);
   return (
     <Fragment>
       <section className="container">
         <section className="container__header">
-          <div className="container__header__menu">
+          {/* <div className="container__header__menu">
             <button className="container__header__menu--button"></button>
-          </div>
+          </div> */}
           <div className="container__header__title">
             <h3 className="container__header__title--text">HAMBURGESAS</h3>
           </div>
@@ -27,13 +26,13 @@ const Pedido = () => {
         </section>
         <section className="container__content">
           <div className="container__content__listOption">
-            {Data.map((burger) => (
-              <Burger
-                key={burger.id}
-                burger={burger}
+            {dataFilter.map((plate) => (
+              <Plate
+                key={plate.id}
+                plate={plate}
                 orden={orden}
                 setOrden={setOrden}
-                burgers={burgers}
+                plates={dataFilter}
               />
             ))}
             {/* <Orden orden={orden}
