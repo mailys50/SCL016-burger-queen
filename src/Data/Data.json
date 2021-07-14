@@ -1,7 +1,7 @@
  [
       {
         "id": "1",
-        "option": "burger",
+        "option": "HAMBURGUESA",
         "name": "CARNE",  
         "price": "2500",
         "images": "https://github.com/mailys50/SCL016-burger-queen/blob/develop4/src/asset/img/burger.png?raw=true",
@@ -10,8 +10,8 @@
       },
       {
         "id": "2",
-        "option": "burger",
-        "name": "DOBLE CARNE",
+        "option": "HAMBURGUESA",
+        "name": "DOBLE/CARNE",
         "price": "3500",
         "images":"https://github.com/mailys50/SCL016-burger-queen/blob/develop4/src/asset/img/burger.png?raw=true",
         "text": "L-T-P-Q",
@@ -19,8 +19,8 @@
       },
       {
         "id": "3",
-        "option": "burger",
-        "name": "CARNE Y TOCINO",
+        "option": "HAMBURGUESA",
+        "name": "CARNE/TOCINO",
         "price": "3000",
         "images": "https://github.com/mailys50/SCL016-burger-queen/blob/develop4/src/asset/img/burger.png?raw=true",
         "text": "L-T-P-Q",
@@ -29,8 +29,8 @@
       },
       {
         "id": "4",
-        "option": "burger",
-        "name": "CARNE Y POLLO",
+        "option": "HAMBURGUESA",
+        "name": "CARNE/POLLO",
         "price": "3500",
         "images": "https://github.com/mailys50/SCL016-burger-queen/blob/develop4/src/asset/img/burgerMaxi.png?raw=true",
         "text": "L-T-P-Q-J",
@@ -39,7 +39,7 @@
       },
       {
         "id": "5",
-        "option": "burger",
+        "option": "HAMBURGUESA",
         "name": "POLLO",
         "price": "2500",
         "images": "https://github.com/mailys50/SCL016-burger-queen/blob/develop4/src/asset/img/burgerPollo.png?raw=true",
@@ -50,8 +50,8 @@
      
       {
         "id": "6",
-        "option": "burger",
-        "name": "DOBLE POLLO",
+        "option": "HAMBURGUESA",
+        "name": "DOBLE/POLLO",
         "price": "3500",
         "images":"https://github.com/mailys50/SCL016-burger-queen/blob/develop4/src/asset/img/burgerPollo.png?raw=true",
         "text": "L-T-P-S-Q",
@@ -60,8 +60,8 @@
       },
       {
         "id": "7",
-        "option": "burger",
-        "name": "POLLO Y TOCINO",
+        "option": "HAMBURGUESA",
+        "name": "POLLO/TOCINO",
         "price": "3500",
         "images": "https://github.com/mailys50/SCL016-burger-queen/blob/develop4/src/asset/img/burgerPollo.png?raw=true",
         "text": "L-T-P-S-Q",
@@ -70,7 +70,7 @@
       },
       {
         "id": "8",
-        "option": "burger",
+        "option": "HAMBURGUESA",
         "name": "MAXI",
         "price": "4000",
         "images":"https://github.com/mailys50/SCL016-burger-queen/blob/develop4/src/asset/img/burgerMaxi.png?raw=true",
@@ -80,7 +80,7 @@
       },
       {
         "id": "9",
-        "option": "shawarma",
+        "option": "SHAWARMA",
         "name": "CARNE",  
         "price": "2500",
         "images":"https://github.com/mailys50/SCL016-burger-queen/blob/develop4/src/asset/img/shawarma.png?raw=true",
@@ -89,7 +89,7 @@
       
       {
         "id": "10",
-        "option": "shawarma",
+        "option": "SHAWARMA",
         "name": "POLLO",
         "price": "2500",
         "images": "https://github.com/mailys50/SCL016-burger-queen/blob/develop4/src/asset/img/shawarma.png?raw=true",
@@ -99,7 +99,7 @@
      
       {
         "id": "11",
-        "option": "shawarma",
+        "option": "SHAWARMA",
         "name": "MAXI",
         "price": "4000",
         "images": "https://github.com/mailys50/SCL016-burger-queen/blob/develop4/src/asset/img/shawarma.png?raw=true",
@@ -108,7 +108,7 @@
         
       },{
         "id": "12",
-        "option": "drink",
+        "option": "BEBIDA",
         "name": "PIÑA",
         "price": "1500",
         "images":"https://github.com/mailys50/SCL016-burger-queen/blob/develop4/src/asset/img/pi%C3%B1a.png?raw=true",
@@ -118,7 +118,7 @@
       },
       {
           "id": "13",
-          "option": "drink",
+          "option": "BEBIDA",
           "name": "NARANJA",
           "price": "1500",
           "images":"https://github.com/mailys50/SCL016-burger-queen/blob/develop4/src/asset/img/naranja.png?raw=true",
@@ -127,7 +127,7 @@
       },
       {
           "id": "14",
-          "option": "drink",
+          "option": "BEBIDA",
           "name": "FRESA",
           "price": "1500",
           "images":"https://github.com/mailys50/SCL016-burger-queen/blob/develop4/src/asset/img/fresa.png?raw=true",
@@ -137,7 +137,7 @@
       },
     {
         "id": "15",
-        "option": "drink",
+        "option": "BEBIDA",
         "name": "FRAMBUESA",
         "price": "1500",
         "images":"https://github.com/mailys50/SCL016-burger-queen/blob/develop4/src/asset/img/framb.png?raw=true",
@@ -146,7 +146,7 @@
     },
     {
         "id": "16",
-        "option": "drink",
+        "option": "BEBIDA",
         "name": "COCA COLA",
         "price": "1000",
         "images":"https://github.com/mailys50/SCL016-burger-queen/blob/develop4/src/asset/img/cocaCola.png?raw=true",
@@ -156,7 +156,7 @@
     {
       
         "id": "17",
-        "option": "drink",
+        "option": "BEBIDA",
         "name": "FANTA",
         "price": "1000",
         "images":"https://github.com/mailys50/SCL016-burger-queen/blob/develop4/src/asset/img/fanta.png?raw=true",
@@ -166,7 +166,7 @@
     },
     {
         "id": "18",
-        "option": "drink",
+        "option": "BEBIDA",
         "name": "SPRITE",
         "price": "1000",
         "images":"https://github.com/mailys50/SCL016-burger-queen/blob/develop4/src/asset/img/sprite.png?raw=true",
@@ -176,7 +176,7 @@
     {
       
         "id": "19",
-        "option": "drink",
+        "option": "BEBIDA",
         "name": "COCA COLA",
         "price": "1500",
         "images":"https://github.com/mailys50/SCL016-burger-queen/blob/develop4/src/asset/img/cocaCola2.png?raw=true",

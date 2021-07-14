@@ -1,26 +1,20 @@
 import React, { Fragment } from "react";
+// import {  Link } from "react-router-dom";
 import Plate from "./Plate";
-import "./orden.css"
-const Orden = ({orden,setOrden}) => {
-// return (
-//     <div className= "orden">
-//     <h3>Orden</h3>
-//     {orden.length ?(<p>0</p>): (orden.map((plate => <Burger key={plate.id}plate={plate.name}orden={orden} setOrden={setOrden}/> )))}
-//     {orden.length === 1 ?(<p>1</p>): (orden.map((plate => <Burger key={plate.name}plate={plate} orden={orden} setOrden={setOrden}/> )))}
-//     </div>
-// )
-const viewOrden = () => {
+//  import Cart from "../Cart"
+import "./orden.css";
+const Orden = ({ orden, setOrden }) => {
+  const viewCart = () => {
     
-      document.querySelector("div.container__header__ordenDiv--list").style.display = "none"? 
-      (document.querySelector("div.container__header__ordenDiv--list").style.display = "flex")
-        : (document.querySelector("div.container__header__ordenDiv--list").style.display = "none")
+  //creando mudulo de caja flexible
+   document.querySelector("div.container__header__ordenDiv--list" ).style.display = "none"?
+    (document.querySelector("div.container__header__ordenDiv--list").style.display = "flex")
+    : (document.querySelector( "div.container__header__ordenDiv--list").style.display = "none");
     
   };
 
   const closeDiv = () => {
-    document.querySelector(
-      "div.container__header__ordenDiv--list"
-    ).style.display = "none";
+    document.querySelector( "div.container__header__ordenDiv--list" ).style.display = "none";
   };
 
   return (
@@ -28,9 +22,18 @@ const viewOrden = () => {
       <div className="container__header__ordenDiv">
         <p className="container__header__ordenDiv--count">{orden.length}</p>
         <button
-          className="container__header__ordenDiv--btnorden"
-          onClick={() => viewOrden()}
-        ></button>
+          className="container__content__option--btnOrden"
+          type="button"
+          onClick={() => viewCart()}
+        > ver Orden
+          {/* <Link to={{
+              pathname: "/Cart",
+              state: { fromDashboard: true },
+            }}
+          >
+            Ver Orden
+          </Link> */}
+        </button>
       </div>
       <div className="container__header__ordenDiv--list">
         <button
@@ -40,8 +43,8 @@ const viewOrden = () => {
         >
           X
         </button>
-        {orden.length === 0  ? (
-          <p>0</p>
+        {orden.length === 0 ? (
+          <p>0 </p>
         ) : (
           orden.map((plate) => (
             <Plate
@@ -49,6 +52,7 @@ const viewOrden = () => {
               plate={plate}
               orden={orden}
               setOrden={setOrden}
+              
             />
           ))
         )}
@@ -56,6 +60,5 @@ const viewOrden = () => {
     </Fragment>
   );
 };
-
 
 export default Orden;

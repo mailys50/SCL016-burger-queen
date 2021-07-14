@@ -2,7 +2,7 @@ import React from "react";
 export const Clock = props => {
     const [date, setDate] = React.useState(new Date());
   
-   //Replaces componentDidMount and componentWillUnmount
+   //Replace componente DidMount and componentWillUnmount
    React.useEffect(() => {
     var timerID = setInterval( () => tick(), 1000 );
     return function cleanup() {

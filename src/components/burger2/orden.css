@@ -102,8 +102,11 @@
   align-content: center;
   align-items: center;
   justify-content: space-around;
-  min-width: 100vw;
+  min-width: 10vw;
+  max-width: 76%;
   background-color: #111;
+  margin: 172px 152px 0px 0px;
+  padding: 0px 0px 0px 0px ;
 }
 .container .container__content .container__content__title {
   height: 20vh;
@@ -113,10 +116,12 @@
 .container .container__content .container__content__listOption {
   display: flex;
   flex-flow: row wrap;
-  min-width: 100vw;
+  min-width: 50vw;
   align-content: center;
   align-items: center;
   justify-content: space-around;
+  margin: 3px 38px 8px 2px;
+  padding: 0px 0px 0px 0px ;
 }
 .container .container__content  .container__content__option {
   display: flex;
@@ -126,18 +131,18 @@
   justify-content: space-between;
   margin: 8px;
   padding: 23px;
-  width: 200px;
-  min-height: 200px;
+  width: 150px;
+  min-height: 150px;
   list-style: none;
   background-color: #9A9C9C;
   /* color: antiquewhite; */
-  border-radius: 20px;
+  border-radius: 30px;
   box-shadow: 0 0 10px 2px #000;
-  transition: 0.4s;
+   transition: 0.1s; 
 }
-.container .container__content .container__content__option:hover  {
+/* .container .container__content .container__content__option:hover  {
   transform: translateY(20px);
-}
+} */
 .container .container__content .container__content__option .container__content__option--image  {
   margin-top: -50px;
   max-width: 250px;
@@ -149,7 +154,7 @@
 }
 .container .container__content .container__content__option .container__content__option--nombre
 {
-  font-family: "Alfa Slab One", cursive;
+  font-family: fantasy;
   font-size: 1.4rem;
 }
 .container .container__content .container__content__option .container__content__option--precio {
@@ -162,12 +167,12 @@
   cursor: pointer;
   color: white;
   border: 0;
-  background-color: #dd5127;
+  background-color: #A6371F;
   text-shadow: 1px 0px #111;
-  font-family: "Alfa Slab One";
+  font-family: "fantasy";
   font-size: 1.4rem;
   box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.5);
-  border-radius: 2px;
+  border-radius: 5px;
   padding: 0 10px 0 10px;
 }
 
@@ -191,11 +196,12 @@
   right: 0;
   border: 0;
   cursor: pointer;
-  font-family: "Alfa Slab One", cursive;
+  font-family: "Alfa Slab One";
   color: white;
-  background-color: transparent;
+  background-color: #A6371F;
   font-size: 1.2rem;
 }
+
 
 .container__header__OrdenDiv--btnOrden {
   cursor: pointer;

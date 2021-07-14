@@ -1,12 +1,14 @@
 import React from "react";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
-import AppUser from "./AppUser";
-import images from "./asset/images";
+import Clock from "./components/Clock"
+import User from "./components/User"
+import Cart from "./components/Cart"
 import Pedido from "./components/burger2/Pedido";
+import Table from "./components/Table"
 
 
 // import FormCrud from "./components/FormCrud"
-import Table from "./components/Table";
+// import Table from "./components/Table";
 
 import "./App.css";
 
@@ -17,7 +19,7 @@ function App() {
   return (
     <div className="App">
       <div>
-        <img src={images.img1} alt="logo" />
+        <img src="https://github.com/mailys50/SCL016-burger-queen/blob/develop4/src/asset/img/logo.png?raw=true" alt="logo" />
       </div>
 
       <Router>
@@ -37,28 +39,32 @@ function App() {
           BEBIDA
         </Link>
         &nbsp;&nbsp;&nbsp;
-        <Link className="btn btn-dark mr-3" to="/table">
+        <Link className="btn btn-dark mr-3" to="/Orden">
           ORDEN
         </Link>
-        &nbsp;&nbsp;&nbsp;
+      
+      
         <Switch>
           <Route exact path="/">
-            <AppUser />
+          <Clock />
+          <User />
           </Route>
 
           <Route path="/burger">
-            <Pedido option="burger" />
+            <Pedido option="HAMBURGUESA" />
           </Route>
 
           <Route path="/shawarma">
-            <Pedido option="shawarma" />
+            <Pedido option="SHAWARMA" />
           </Route>
           <Route path="/drink">
-            <Pedido option="drink" />
+            <Pedido option="BEBIDA" />
           </Route>
-          <Route path="/table">
-            <AppUser />
-            <Table />
+          <Route path="/Cart" >
+         <Cart  />
+          </Route>
+          <Route path="/Orden" >
+         <Table  />
           </Route>
         </Switch>
       </Router>
